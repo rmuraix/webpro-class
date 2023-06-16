@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*header*/
+h1 {
+  text-align: center;
+}
+.authority {
+  text-align: right;
+}
+#authority-cc {
+  width: 100px;
+}
+h2 {
+  text-align: center;
+  margin-top: 4em;
+}
+.main-text {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.main-btn {
+  text-align: center;
+}
+.ayameImages {
+  text-align: center;
+}
+hr {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 2em;
+}
+.main-text__separated {
+  margin-top: 2em;
+}
+.main-text__top {
+  margin-top: 4em;
+}
+.main-text__italic {
+  font-style: italic;
+}
+.main-text__bold {
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+  background-color: black;
+  color: gray;
+}
+/*header*/
+header {
+  margin-bottom: 4em;
+}
+header h1 {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+/*main*/
+#main {
+  padding-left: 2em;
+  padding-right: 4em;
+  font-size: large;
+}
+#main p {
+  background-color: rgb(217, 226, 255);
+  text-indent: 2rem;
+}
+.section {
+  margin-top: 2em;
+}
+/*footer*/
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer p {
+  background-color: white;
+  position: absolute;
+  bottom: 1em;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* ↑このファイルは文字コードUTF-8で書かれています。 */
+
+/* 見出し要素 */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5em;
+}
+
+/* 段落要素 */
+
+#abst_p {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.main_p {
+  text-indent: 1em;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.right_p {
+  text-align: right;
+}
+
+/* hr要素 */
+hr {
+  max-width: 50%;
+  margin-bottom: 2em;
+}

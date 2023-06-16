@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <!-- このファイルは文字コードUTF-8で書かれています -->
+    <!-- HTML5ではUTF-8でページを記述することが推奨されている -->
+    <meta charset="UTF-8" />
+
+    <!-- タブに表示されるページタイトルです -->
+    <title>課題09</title>
+
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+
+  <body>
+    <p class="center">
+      <img class="lrbutton" src="image/button_left.png" onclick="go_left()" />
+      <img id="banner" src="image/banner00.png" />
+      <img class="lrbutton" src="image/button_right.png" onclick="go_right()" />
+    </p>
+    <p class="center">
+      <span id="dot0" class="dot" onclick="go_num(0)" style="color: red"
+        >●</span
+      >
+      <span id="dot1" class="dot" onclick="go_num(1)">●</span>
+      <span id="dot2" class="dot" onclick="go_num(2)">●</span>
+      <span id="dot3" class="dot" onclick="go_num(3)">●</span>
+    </p>
+
+    <!-- JSへのリンクを読み込み -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
