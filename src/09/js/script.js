@@ -50,7 +50,7 @@ function update_dots(number) {
     if (number == i) {
       dot.style.color = "red";
     } else {
-      dot.style.color = "black";
+      dot.style.color = "gray";
     }
   }
 }
